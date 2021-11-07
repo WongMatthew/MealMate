@@ -75,7 +75,7 @@ Dae is a 2nd year student at Simon Fraser University studying computer science. 
 
 Matthew is a 2nd year student at Simon Fraser University studying computer science. He has formal training in data science. He's interested in learning new and honing his current frontend skills/technologies. Moreover, he's deeply passionate about machine learning, AI and neural networks. You can reach out to him at his LinkedIn ~ https://www.linkedin.com/in/matthew-wong-240837124/
 
-David is a 1st year student at University of Toronto studying computer science and mathematics. You can reach out to him at his LinkedIn ~ https://www.linkedin.com/in/daniel-s-851b1521a/
+Daniel is a 1st year student at University of Toronto studying computer science and mathematics. He has an interest in artificial intelligence research and data science. You can reach out to him at his LinkedIn ~ https://www.linkedin.com/in/daniel-s-851b1521a/
 
 Connor is a 1st year Track One Undeclared engineering student at University of Toronto. He loves both hardware and software and is planning to pursue some sort of mechatronics education in the future. He is especially passionate about computer science and robotics. You can reach out to him at his LinkedIn ~ https://www.linkedin.com/in/connor-sheahan-6a3933223/
 
