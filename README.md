@@ -11,7 +11,7 @@ As university students, we’re very busy, and we’re often so focused on our w
 MealMate lets you choose recipes to make at home. Based on the ingredients you have on hand, MealMate will recommend recipes tailored to your diet. If you want to have a low-calorie, super healthy breakfast, no problem!
 
 
-##🛠️ How we built it 🛠️
+## 🛠️ How we built it 🛠️
 
 We found a database of recipes and their respective ingredients on Kaggle. The dataset was approximately 2.2 million rows. We had to take a very small portion of it so that our computers could handle running the recommender systems. We also feature engineered calories and an arbitrary health scale. For calories, each recipe was assigned a random value between 300 and 800 because a person's average homemade meal/snack falls within this boundary. Each recipe was also given a random value between 1 and 10 for the health scale. 
 
@@ -26,7 +26,7 @@ Flask + Heroku Web app: The Flask app consists of an HTML/Jinja frontend and Pyt
 Flutter: How was it coded and then incorporated with Flask and such
 
 
-##😣  Challenges we ran into 😣
+## 😣  Challenges we ran into 😣
 
 We ran into a lot of challenges with our deployment. One major problem was installing and learning flutter. No one on the team knew how to use flutter, so it was an uphill battle trying to learn it and make a useable UI for iOS/android. We also ran into some troubles with streamlit when we were trying to design a web app. It was a huge hassle trying to understand how to combine the frontend and backend because we needed to grab user input for the recommender system. This was especially the case because we also encountered issues installing scikit-learn which made testing our webpages all the more time consuming. Another major problem came with the deployment of the website and an API that could be used to bridge the user input and recommender output. It was extremely challenging to understand the long-winded and esoteric message thrown up by Heroku. Furthermore, because each deployment consumed plenty of time, the process of debugging became very time consuming. Overall, it was extremely hard to design a UI that focused on usability while getting the user input we needed. In the end, figuring out deployment took up a big chunk of our time. 
 
