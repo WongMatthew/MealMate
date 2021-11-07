@@ -1,5 +1,7 @@
 # MealMate
+
 ![MealMate Logo](website/static/icon.jpg/)
+
 Meals for you and your mates
 
 ## 💡 Inspiration 💡
