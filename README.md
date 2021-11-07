@@ -1,6 +1,6 @@
 # MealMate
 
-![MealMate Logo](website/static/icon.jpg/)
+![mealmateicon](https://user-images.githubusercontent.com/49925170/140648740-e88314be-755d-4f20-812f-f37e90ac0728.png)
 
 Meals for you and your mates
 
