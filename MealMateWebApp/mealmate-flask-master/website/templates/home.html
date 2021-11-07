@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Home page{% endblock %}
+{% block content %}
+<h1 align="center" class="mt-3" style="font-family: 'Roboto', sans-serif;">MealMate</h1>
+<img src="../static/icon.jpg" class="rounded mx-auto d-block" height=300px alt="Meal Mate logo">
+
+<form method="POST">
+    <div class="container-fluid">
+        <label 
+        for="calorieRange" 
+        class="form-label"
+        style="font-family: 'Roboto', sans-serif; font-size: 1.2em;"
+        >Calories (kcal): </label>
+        <output name="calories" id="caloriesOutput" class="ml-3" style="font-size: 1.2em;">550</output>
+        <input type="range" class="form-range" min="300" max="800" id="calorieRange" name="calories" oninput="caloriesOutput.value = calorieRange.value">
+    </div>
+    <div class="container-fluid">
+        <label for="healthRange" class="form-label"         
+        style="font-family: 'Roboto', sans-serif; font-size: 1.2em;"
+        >Health Scale: </label>
+        <output name="health" id="healthOutput" class="ml-3" style="font-size: 1.2em;">5</output>
+        <input type="range" class="form-range" min="0" max="10" id="healthRange" name="health" oninput="healthOutput.value = healthRange.value">
+    </div>
+    <div class="container-fluid">
+        <label 
+        for="ingredient-choice" 
+        class="form-label"
+        style="font-family: 'Roboto', sans-serif; font-size: 1.2em;"
+        >Choose at least 2 ingredients: </label>
+        <select id="ingredient-choice" name="ingredient_choice" class="selectpicker form-control" multiple>
+            {% for o in data %}
+            <option value="{{o}}">{{ o }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <br/>
+    <div class="container-fluid mb-3">
+        <button type="primary" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+{% endblock %}
